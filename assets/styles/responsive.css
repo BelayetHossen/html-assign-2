@@ -1,0 +1,388 @@
+@media screen and (max-width:576px) {
+
+    .container,
+    .footer {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    /* header section responsive  */
+    .header-section {
+        height: 57rem;
+        width: 973px;
+    }
+
+    .top-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo h4 {
+        padding-bottom: 15px;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-section {
+        margin: 1rem 0;
+        /* width: 300px; */
+    }
+
+    .banner-section {
+        margin: 1rem 0;
+    }
+
+    .hero-section h1 {
+        font-size: 34px;
+        line-height: 40px;
+        padding: 1rem 0;
+    }
+
+    .hero-section p {
+        width: 70%;
+    }
+
+    /* Team section  */
+    .team {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .team-members {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .team-members img {
+        width: 970px;
+        margin-bottom: 2rem;
+    }
+
+    .team-content {
+        align-items: center;
+        padding: 0 1rem;
+        width: 100%;
+    }
+
+    .team-content p {
+        width: 70%;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    /* features section styles  */
+    .features {
+        flex-direction: column;
+        padding: 0 1.5rem;
+    }
+
+    .features-content {
+        width: 980px;
+    }
+
+    .features-banner img {
+        width: 960px;
+    }
+
+    .sticker {
+        font-size: 80px;
+        left: 50%;
+    }
+
+    .features-banner h4 span {
+        font-size: 28px;
+    }
+
+    /* fact section  */
+    .fact-items {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .fact-head {
+        width: 960px;
+        text-align: center;
+    }
+
+    .fact-head h3 {
+        font-size: 64px;
+    }
+
+    .fact-head p {
+        font-size: 26px;
+    }
+
+    .fact-item {
+        width: 900px;
+    }
+
+    .fact-item img {
+        width: 250px;
+        padding: 10px 0;
+    }
+
+    .fact-item h2 {
+        font-size: 58px;
+    }
+
+    .fact-item p {
+        font-size: 36px;
+    }
+
+    /* work section  */
+    .work-section {
+        width: 900px;
+    }
+
+    .work-head h3 {
+        font-size: 68px;
+    }
+
+    .work-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .work-item img {
+        width: 980px;
+        padding-left: 2.5rem;
+    }
+
+    /* sponsor section  */
+    .sponsors-head {
+        width: 960px;
+    }
+
+    .sponsors-head h3 {
+        font-size: 56px;
+
+    }
+
+    .sponsors-head p {
+        font-size: 26px;
+    }
+
+    .sponsors-company {
+        flex-direction: column;
+        margin-left: 29rem;
+    }
+
+    .sponsors-company img {
+        width: 200px;
+    }
+
+    /* footer section styles */
+    .footer {
+        padding: 3rem 0;
+        background: #cfc9c1;
+        width: 1038px;
+    }
+
+    .footer p {
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:880px) {
+
+    .container,
+    .footer {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    /* header section responsive  */
+    .header-section {
+        height: 57rem;
+        width: 973px;
+    }
+
+    .top-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo h4 {
+        padding-bottom: 15px;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-section {
+        margin: 1rem 0;
+        /* width: 300px; */
+    }
+
+    .banner-section {
+        margin: 1rem 0;
+    }
+
+    .hero-section h1 {
+        font-size: 34px;
+        line-height: 40px;
+        padding: 1rem 0;
+    }
+
+    .hero-section p {
+        width: 70%;
+    }
+
+    /* Team section  */
+    .team {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .team-members {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .team-members img {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .team-content {
+        align-items: center;
+        padding: 0 1rem;
+        width: 100%;
+    }
+
+    .team-content p {
+        width: 70%;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    /* features section styles  */
+    .features {
+        flex-direction: column;
+        padding: 0 1.5rem;
+    }
+
+    .features-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .features-content {
+        width: 960px;
+    }
+
+    .features-banner img {
+        width: 960px;
+    }
+
+    .sticker {
+        font-size: 80px;
+        left: 50%;
+    }
+
+    .features-banner h4 span {
+        font-size: 28px;
+    }
+
+    /* fact section  */
+    .fact-items {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fact-item {
+        width: 100px;
+    }
+
+    .fact-head {
+        width: 100%;
+        text-align: center;
+    }
+
+    .fact-head h3 {
+        font-size: 64px;
+    }
+
+    .fact-head p {
+        font-size: 26px;
+    }
+
+    .fact-item {
+        width: 900px;
+    }
+
+    .fact-item img {
+        width: 250px;
+        padding: 10px 0;
+    }
+
+    .fact-item h2 {
+        font-size: 58px;
+    }
+
+    .fact-item p {
+        font-size: 36px;
+    }
+
+    /* work section  */
+    .work-section {
+        width: 900px;
+    }
+
+    .work-head h3 {
+        font-size: 68px;
+    }
+
+    .work-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .work-item img {
+        width: 980px;
+        padding-left: 2.5rem;
+    }
+
+    /* sponsor section  */
+    .sponsors-head {
+        width: 960px;
+    }
+
+    .sponsors-head h3 {
+        font-size: 56px;
+
+    }
+
+    .sponsors-head p {
+        font-size: 26px;
+    }
+
+    .sponsors-company {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        margin-left: 9rem;
+    }
+
+    .sponsors-company img {
+        width: 100%;
+    }
+
+    /* footer section styles */
+    .footer {
+        padding: 3rem 0;
+        background: #cfc9c1;
+        width: 1038px;
+    }
+
+    .footer p {
+        font-size: 26px;
+    }
+}
